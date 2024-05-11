@@ -27,6 +27,7 @@ public class CConexion {
            JOptionPane.showMessageDialog(null,"Conexion exitosa");
            */
            System.out.println("Conexion exitosa");
+           
        }catch(Exception e){
            JOptionPane.showMessageDialog(null,"Error al conectar, "+e.toString());
        }
